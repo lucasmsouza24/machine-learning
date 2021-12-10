@@ -10,12 +10,12 @@ x, y = [], []
 cases_list = list(cases)
 
 # getting 5 countries with more cases
-while len(x) < 6:
-    for i in range(len(cases_list)):
+while len(x) < 7:
+    for i, country, case in zip(range(len(cases_list)), countries, cases):
         if cases[i] == max(cases_list):
-            x.append(countries[i])
-            y.append(cases[i])
-            cases_list.remove(cases[i])
+            x.append(country)
+            y.append(case)
+            cases_list.remove(case)
 
 plt.bar(x, y)
 plt.show()
