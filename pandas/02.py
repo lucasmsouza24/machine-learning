@@ -1,7 +1,5 @@
-import numpy as np
 import pandas as pd 
 import matplotlib.pyplot as plt 
-from random import randint
 
 df = pd.read_csv('/home/lucas/dev/machine-learning/data/covid_asia_weekly_trend.csv')
 
@@ -11,7 +9,8 @@ x, y = [], []
 
 cases_list = list(cases)
 
-while len(x) < 5:
+# getting 5 countries with more cases
+while len(x) < 6:
     for i in range(len(cases_list)):
         if cases[i] == max(cases_list):
             x.append(countries[i])

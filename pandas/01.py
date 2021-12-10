@@ -1,4 +1,3 @@
-import numpy as np
 import pandas as pd 
 import matplotlib.pyplot as plt 
 from random import randint
@@ -11,7 +10,7 @@ x, y = [], []
 
 used_indexes = []
 
-# pegando randomicamente 5 valores
+# getting 5 random values
 while len(x) < 5:
     rand_index = randint(0, len(cases))
 
@@ -20,5 +19,6 @@ while len(x) < 5:
         y.append(cases[rand_index])
         used_indexes.append(rand_index)
 
+# ploting graph
 plt.bar(x, y)
 plt.show()
