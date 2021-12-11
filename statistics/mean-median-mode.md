@@ -1,3 +1,5 @@
+You can see **iPython Jupyter Notebook** examples [here](./mean-median-mode.ipynb)
+
 # Mean
 
 - Arithmetic Average
