@@ -41,7 +41,7 @@ You can talk about how extreme a data point is by talking about "how many sigmas
 
 # Population vs Sample
 
-If you're working with a sample of data instead of an entire data ser (the entire population). Then you want to use the "sample variance" instead of the "population variance"
+If you're working with a sample of data instead of an entire data set (the entire population). Then you want to use the "sample variance" instead of the "population variance"
 
 For N samples, you just divide the squared variances by N-1 instead of N. So, in our example, we computed the population variance like this:
 
