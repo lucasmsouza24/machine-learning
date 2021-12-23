@@ -1,3 +1,5 @@
+You can see **iPython Jupyter Notebook** examples [here](./variation-and-standard-deviation.ipynb)
+
 # Variation
 
 Variance meansures how "spread-out" the data is.
